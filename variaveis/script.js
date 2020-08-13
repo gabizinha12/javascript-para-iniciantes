@@ -14,6 +14,8 @@ console.log(sobrenome, cidade)
 var semDefinir;
 console.log(semDefinir)
 
+// console.log(AindaNaoDefini)
+
 // os nomes podem iniciar com $, _ ou letras
 // podem conter numeros mas nao iniciar com eles
 // case sensitive
@@ -30,3 +32,20 @@ var $selecionar;
 var _nome;
 var possuiFaculdadeNoExterior;
 
+// hoisting 
+// são movidas pra cima do código mas o valor atribuido  nao
+console.log(nome)
+var nome = 'Gabi'
+var profissao = 'Dev'
+console.log(profissao)
+
+
+var comida;
+console.log(comida)
+comida = 'Pizza'
+console.log(comida)
+
+
+let time = 'Vasco'
+time = 'Flamengo'
+console.log(time)
