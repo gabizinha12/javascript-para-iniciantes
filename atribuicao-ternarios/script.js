@@ -1,35 +1,18 @@
-var videogames = ['Switch', 'ps4', 'Xbox']
+var numero = 10
+var numero2 = 20
 
-// var ultimoItem = videogames.pop()
+numero += numero2
+console.log(numero)
 
-videogames.push('3DS')
+var idade = 19
+var podeBeber;
+var naoPossuiDiabetes = false;
 
-for (var numero = 0; numero < 10; numero++) {
-    console.log(numero);
-  }
-  // Retorna de 0 a 9 no console
-  var i = 0;
-  while (i < 10) {
-    console.log(i);
-    i++;
-  }
-  // Retorna de 0 a 9 no console
-  var videoGames = ['Switch', 'PS4', 'XBox', '3DS'];
-  for (var i = 0; i < videoGames.length; i++) {
-    console.log(videoGames[i]);
-  }
-  
-  var videoGames = ['Switch', 'PS4', 'XBox', '3DS'];
-for (var i = 0; i < videoGames.length; i++) {
-  console.log(videoGames[i]);
-  if(videoGames[i] === 'PS4') {
-    break;
-  }
-}
-videoGames.forEach(function(item) {
-  console.log(item)
-})
-var frutas = ['Banana', 'Pera', 'Maçã', 'Abacaxi', 'Uva']
-frutas.forEach(function(fruta, index) {
-  console.log(fruta,index)
-})
+podeBeber = (idade >= 18 && naoPossuiDiabetes) ? 'Pode beber':'Não pode beber'
+console.log(podeBeber)
+
+var PossuiFaculdade = false;
+if(PossuiFaculdade) 
+  console.log('bla')
+else 
+  console.log(' ta errado')
