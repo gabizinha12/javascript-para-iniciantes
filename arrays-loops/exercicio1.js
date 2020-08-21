@@ -6,6 +6,10 @@ var copa = [1959, 1962, 1970, 1994, 2002]
 copa.forEach(function(ano) {
     console.log(`O brasil ganhou a copa de ${ano}`)
 })
+
+for( var i = 0; i < copa.length; i++) {
+    console.log('O brasil ganhou a copa de ' + copa[i] );
+}
 // Interaja com um loop nas frutas abaixo e pare ao chegar em Pera
 var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
 
@@ -18,3 +22,4 @@ for(var i = 0; i < frutas.length; i++) {
 } 
 // Coloque a última fruta da array acima em uma variável,
 // sem remover a mesma da array.
+var ultimaFruta = frutas[frutas.length - 1];
